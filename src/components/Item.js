@@ -31,13 +31,12 @@ const Item = ({
           </div>
         </div>
 
-        
         <div className="item__lowerThird">
           <div className="item__buttons">
-            <Button imp="111" text={leftBtnTxt} link={leftBtnLink} />
+            <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
             {/* 2nd button option not working */}
             {twoButtons && (
-              <Button imp="222" text={rightBtnTxt} link={rightBtnLink} />
+              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
             )}
           </div>
           {first && (

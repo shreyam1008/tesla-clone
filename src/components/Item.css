@@ -6,7 +6,10 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  scroll-snap-align: start;
 }
+
+
 
 .item_container {
   width: 40vw;
